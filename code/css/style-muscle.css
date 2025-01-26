@@ -1,0 +1,77 @@
+body {
+    color: #fff;
+}
+
+/* Muscle Container Styles */
+div.muscle-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    & > div.muscle-map {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+        & > svg {
+            height: 500px;
+            width: auto;
+            margin: 0 auto;
+            display: block;
+            & > g {
+                & > path.traps:hover{
+                    fill: #d2bc8a;
+                }
+                & > path.front-shoulders:hover{
+                    fill: #d2bc8a;
+                }
+                & > path.chest:hover{
+                    fill: #d2bc8a;
+                }
+                & > path.biceps:hover{
+                    fill: #d2bc8a;
+                }
+                & > path.obliques:hover{
+                    fill: #d2bc8a;
+                }
+                & > path.abdominals:hover{
+                    fill: #d2bc8a;
+                }
+                & > path.forearms:hover{
+                    fill: #d2bc8a;
+                }
+                & > path.quads:hover{
+                    fill: #d2bc8a;
+                }
+                & > path.traps-middle:hover{
+                    fill: #d2bc8a;
+                }
+                & > path.rear-shoulders:hover{
+                    fill: #d2bc8a;
+                }
+                & > path.lats:hover{
+                    fill: #d2bc8a;
+                }
+                & > path.triceps:hover{
+                    fill: #d2bc8a;
+                }
+                & > path.lowerback:hover{
+                    fill: #d2bc8a;
+                }
+                & > path.glutes:hover{
+                    fill: #d2bc8a;
+                }
+                & > path.hamstrings:hover{
+                    fill: #d2bc8a;
+                }
+                & > path.calves:hover{
+                    fill: #d2bc8a;
+                }
+                & > g.body-map-model{
+                    fill:#fff
+                }
+            }  
+        }
+    }
+}
