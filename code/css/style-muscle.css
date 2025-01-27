@@ -11,67 +11,85 @@ div.muscle-container {
     text-align: center;
     & > div.muscle-map {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-between;
+        align-items: flex-start;
         margin: 20px 0;
-        & > svg {
-            height: 500px;
-            width: auto;
-            margin: 0 auto;
-            display: block;
-            & > g {
-                & > path.traps:hover{
-                    fill: #d2bc8a;
+        & > div.body {
+            position: relative;
+            border-radius: 15px;
+            padding: 10px;
+            &::before {
+                content: '';
+                position: absolute;
+                top: -5px;
+                left: -5px;
+                right: -5px;
+                bottom: -5px;
+                border-radius: 15px;
+                background: linear-gradient(180deg,  #fff, transparent, #fff); /* Degradado */
+                z-index: -1;
+            }
+
+            & > svg {
+                background: linear-gradient(180deg, #fff, transparent, #fff);
+                height: 500px;
+                width: auto;
+                margin: 0 auto;
+                display: block;
+                & > g {
+                    & > path.traps:hover {
+                        fill: #d2bc8a;
+                    }
+                    & > path.front-shoulders:hover {
+                        fill: #d2bc8a;
+                    }
+                    & > path.chest:hover {
+                        fill: #d2bc8a;
+                    }
+                    & > path.biceps:hover {
+                        fill: #d2bc8a;
+                    }
+                    & > path.obliques:hover {
+                        fill: #d2bc8a;
+                    }
+                    & > path.abdominals:hover {
+                        fill: #d2bc8a;
+                    }
+                    & > path.forearms:hover {
+                        fill: #d2bc8a;
+                    }
+                    & > path.quads:hover {
+                        fill: #d2bc8a;
+                    }
+                    & > path.traps-middle:hover {
+                        fill: #d2bc8a;
+                    }
+                    & > path.rear-shoulders:hover {
+                        fill: #d2bc8a;
+                    }
+                    & > path.lats:hover {
+                        fill: #d2bc8a;
+                    }
+                    & > path.triceps:hover {
+                        fill: #d2bc8a;
+                    }
+                    & > path.lowerback:hover {
+                        fill: #d2bc8a;
+                    }
+                    & > path.glutes:hover {
+                        fill: #d2bc8a;
+                    }
+                    & > path.hamstrings:hover {
+                        fill: #d2bc8a;
+                    }
+                    & > path.calves:hover {
+                        fill: #d2bc8a;
+                    }
+                    & > g.body-map-model {
+                        fill: #fff;
+                    }
                 }
-                & > path.front-shoulders:hover{
-                    fill: #d2bc8a;
-                }
-                & > path.chest:hover{
-                    fill: #d2bc8a;
-                }
-                & > path.biceps:hover{
-                    fill: #d2bc8a;
-                }
-                & > path.obliques:hover{
-                    fill: #d2bc8a;
-                }
-                & > path.abdominals:hover{
-                    fill: #d2bc8a;
-                }
-                & > path.forearms:hover{
-                    fill: #d2bc8a;
-                }
-                & > path.quads:hover{
-                    fill: #d2bc8a;
-                }
-                & > path.traps-middle:hover{
-                    fill: #d2bc8a;
-                }
-                & > path.rear-shoulders:hover{
-                    fill: #d2bc8a;
-                }
-                & > path.lats:hover{
-                    fill: #d2bc8a;
-                }
-                & > path.triceps:hover{
-                    fill: #d2bc8a;
-                }
-                & > path.lowerback:hover{
-                    fill: #d2bc8a;
-                }
-                & > path.glutes:hover{
-                    fill: #d2bc8a;
-                }
-                & > path.hamstrings:hover{
-                    fill: #d2bc8a;
-                }
-                & > path.calves:hover{
-                    fill: #d2bc8a;
-                }
-                & > g.body-map-model{
-                    fill:#fff
-                }
-            }  
+            }
         }
     }
 }
