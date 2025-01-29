@@ -19,7 +19,9 @@
                     <input type="password" name="password" placeholder="Password" required>
                     <button type="submit">Login</button>
                 </form>
-                <p>Don't have an account? <a href="#" onclick="showForm('register')">Register here</a>.</p>
+                <p>Don't have an account? 
+                    <a href="?form=register">Register here</a>.
+                </p>
             </div>
 
             <div class="form-box" id="register-form">
@@ -31,7 +33,9 @@
                     <input type="password" name="confirm_password" placeholder="Confirm Password" required>
                     <button type="submit">Register</button>
                 </form>
-                <p>Already have an account? <a href="#" onclick="showForm('login')">Login here</a>.</p>
+                <p>Already have an account? 
+                    <a href="?form=login">Login here</a>.
+                </p>
             </div>
         </section>
     </main>

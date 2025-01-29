@@ -29,7 +29,6 @@ div.muscle-container {
                 background: linear-gradient(180deg,  #fff, transparent, #fff); /* Degradado */
                 z-index: -1;
             }
-
             & > svg {
                 background: linear-gradient(180deg, #fff, transparent, #fff);
                 height: 500px;
@@ -90,6 +89,9 @@ div.muscle-container {
                     }
                 }
             }
+        }
+        & > div.exercise-list{
+            background-color: black;
         }
     }
 }
