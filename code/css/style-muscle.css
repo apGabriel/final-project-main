@@ -91,7 +91,14 @@ div.muscle-container {
             }
         }
         & > div.exercise-list{
-            background-color: black;
+            background: linear-gradient(to right, #101010, #3E3E3E);
+            padding:20px;
+            border-radius: 15px;
+            border: 2px solid #d2bc8a;
+            & > ul {
+                list-style-type: none;
+                padding: 0;
+            }
         }
     }
 }

@@ -13,8 +13,8 @@
             <h1>KnowGYM</h1>
             <p>your sports agenda</p>
             <div class="buttons">
-                <button onclick="window.location.href='calendar.php';">Calendario</button>
-                <button onclick="window.location.href='muscle.php';">Muscular Groups</button>
+                <button onclick="window.location.href='calendar.php'">Calendario</button>
+                <button onclick="window.location.href='muscle.php'">Muscular Groups</button>
             </div>
         </section>
 
