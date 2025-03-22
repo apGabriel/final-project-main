@@ -1,4 +1,6 @@
 https://looka.com/s/207486057
+aptronxd_admin
+p=gFyk@kFwf!
 
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
