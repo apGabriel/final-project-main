@@ -145,9 +145,9 @@ VALUES
 
 -- Hamstrings
 (14, 'Deadlifts Multi-Press', 'hamstrings/deadlifts-multi-press.webp', 'Perform deadlifts using multiple machines to activate the hamstrings effectively.'),
-(14, 'Donkey Kick Machine', 'hamstrings/donkey-kick-machine.webp', 'Use the donkey kick machine, focusing on both glutes and hamstrings.')
-(14, 'Good Morning', 'hamstrings/good-morning.webp', 'Perform the Good Morning exercise with a barbell to work the posterior chain, including hamstrings.')
-(14, 'Nordic Hamstring Curls', 'hamstrings/nordic-hamstring-curls.webp', 'Do Nordic curls while kneeling to target and strengthen the hamstrings.')
+(14, 'Donkey Kick Machine', 'hamstrings/donkey-kick-machine.webp', 'Use the donkey kick machine, focusing on both glutes and hamstrings.'),
+(14, 'Good Morning', 'hamstrings/good-morning.webp', 'Perform the Good Morning exercise with a barbell to work the posterior chain, including hamstrings.'),
+(14, 'Nordic Hamstring Curls', 'hamstrings/nordic-hamstring-curls.webp', 'Do Nordic curls while kneeling to target and strengthen the hamstrings.'),
 (14, 'Romanian Deadlift with Dumbbells', 'hamstrings/romanian-deadlift-dumbbells.webp', 'Use dumbbells for the Romanian deadlift to focus on the hamstrings.'),
 
 -- Traps Middle
